@@ -47,14 +47,14 @@ ul{
     align-items: center;
 }
 .image-container{
-   width: 788px;
+   width: 588px;
    height: 848px;
-   background-image: url('./images/freddy\ prof.png');
+   background-image: url('./images/image.png');
    background-position: cover;
    background-repeat: no-repeat;
    position: absolute;
    top: -6px;
-   right: -20px;
+   right: -10px;
    border-bottom-left-radius: 40px;
    z-index: -1
 
@@ -66,7 +66,7 @@ ul{
 }
 
 .description{
-    width: 470px;
+    width: 320px;
     padding: 20px 0px;
     color: #657D80;
     font-size: 18px;
@@ -74,11 +74,9 @@ ul{
 .intro{
     background-color: #01B5FF;
     text-align: center;
-    padding: 15px 0px;
-    width: 350px;
+    padding: 15px 10px;
     margin-bottom: 40px;
     border-radius: 10px;
-    font-size: 24px;
     font-family:  Kaisei Tokumin, serif;
     font-weight:bold;
 }
@@ -107,8 +105,8 @@ ul{
 }
 .About{
     display: flex;
-    
     margin: 90px 0px;
+    position: relative;
 }
 img{
     height: 100%;
@@ -116,5 +114,58 @@ img{
 }
 .img-cont{
     width: 100%;
-    height: 900px;
+    height: 300px;
+}
+.left-abt{
+  margin: 0px 40px;
+}
+.me{
+    background-color: #01B5FF;
+    width: 150px;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 10px ;
+    border-radius: 10px;
+}
+.Why{
+padding:20px 0px;
+
+}
+.intro-about{
+    font-size: 18px;
+    color:#657D80;
+    padding-bottom: 15px;
+}
+.btn-dwn{
+background-color: #01B5FF;
+border: none;
+border-radius: 9px;
+padding:10px 9px
+}
+.carre{
+    background-color: #01B5FF;
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    left: 30%;
+    top:72%
+    
+}
+.carre-1{
+   height: 100px;
+    width: 100px;
+    border: solid #01B5FF 10px ;
+    border-radius: 50%;
+    position: absolute;
+    top:70%;
+    left:-30px;
+    z-index:1;
+
+}
+.serv{
+    font-size: 20px;
+    font-weight: bold;
+}
+.cont-serv{
+    text-align: center;
 }
