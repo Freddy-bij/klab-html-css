@@ -12,13 +12,22 @@ body{
     font-family:  Kaisei Tokumin, serif;
   
 }
-nav{
-   
+
+
+nav {
     display: flex;
     justify-content: space-between;
-    padding:20px 0px;
+    align-items: center;
+    padding: 20px 0px; 
+    padding-left: 250px;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 
 }
+
 ul{
     list-style: none;
     display: flex;;
@@ -28,21 +37,25 @@ ul{
     
 
 }
-
+.hm{
+    border-bottom: solid #01B5FF;
+    padding-bottom: 4px;
+}
 .nav-links li a{
     text-decoration: none;
-    color: white;
-    font-weight: bold;
-      
+    color: wheat;
+    font-weight: bold;  
+    margin-right: 70px;
+}
 
-    
+.nav-links li a:hover{
+    color: #01B5FF;
+ 
 }
-nav{
-    position: fixed;
-}
-.fx-li{
-    position: fixed;
-}
+
+
+
+
 .head{
     color: #01B5FF;
     font-family: Kaisei Tokumin, serif;
@@ -68,6 +81,24 @@ nav{
 
 }
 
+.carr{
+    background-color:#01B5FF;
+    width: 80px;
+    height: 150px;
+    position: absolute;
+    top: 880px;
+    left: 730px;
+}
+.carr-0{
+    border:solid #01B5FF 7px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: -120px;
+    left: -30px;
+    border-radius: 50%;
+    z-index: 100;
+}
 .intro-description{
     display: flex;
     align-items: center;
@@ -112,6 +143,7 @@ nav{
     border-radius: 5px;
 }
 .About{
+    position: relative;
     display: flex;
     margin: 90px 0px;
   
@@ -363,7 +395,7 @@ form{
     display: flex;
     gap: 15px;
 }
-input{
+.input{
     width: 100%;
     height: 65px;
     padding: 0px 10px;
@@ -400,4 +432,51 @@ textarea{
     font-weight: bolder;
     font-size: 24px;
     border-radius: 8px;
+}
+.sub{
+      text-align: center;
+   
+}
+.sub-1{
+    text-align: center;
+}
+.arr-mg{
+    width: 30px;
+    height: 30px;
+}
+.sub-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.input-form{
+    width: 650px;
+    height: 40px;
+    margin: 20px 0px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 0px 10px;
+}
+
+.arr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01B5FF;
+    width: 40px;
+    height: 40px;
+     border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 160px;
+    border-top: solid  gray;
+    padding: 14px 0px;
+    margin-top: 60px;
+}
+.fb{
+    color: #01B5FF;
 }
